@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Learning 4.0",
+    "uID": "u2",
+    "text": "Wecker stellen um Feierabend nicht zu verpassen!",
+    "state": false
+  },
+  {
+    "id": 3,
+    "uID": "u3",
+    "title": "Frontend Kunde",
+    "text": "Home, Restaurant-Ansicht, Warenkorb, Bestellung",
+    "state": false
+  },
+  {
+    "id": 4,
+    "uID": "u3",
+    "title": "Frontend Auth + Owner + Admin",
+    "text": "Login/Register, Besitzer-Dashboard, Admin-Bereich",
+    "state": false
+  },
+  {
+    "id": 5,
+    "uID": "u3",
+    "title": "Backend Entwickler",
+    "text": "REST-API, Auth, Bestellungen, Rollen-Management ",
+    "state": false
+  }
+]

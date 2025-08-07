@@ -1,0 +1,74 @@
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "MaMu",
+  "password": "LoginPW123!"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "KuBi",
+  "password": "LoginPW123!"
+}
+###
+
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+  "username": "KuBi"
+}
+
+###
+
+POST http://localhost:5000/todos/addTodo
+Content-Type: application/json
+
+{
+  "username": "KuBi",
+  "todo": {
+    "title": "Test-Todo",
+    "text": "Test-Eintrag",
+    "state": false
+  }
+}
+###
+POST http://localhost:5000/todos/addTodo
+Content-Type: application/json
+
+{
+  "username": "MaMu",
+  "todo": {
+    "title": "Test Todo",
+    "text": "This is a test todo item.",
+    "state": false
+  }
+}
+
+###
+
+PUT http://localhost:5000/todos/updateTodo
+Content-Type: application/json
+
+{
+  "username": "MaMu",
+  "todo": {
+    "id": 6,
+    "title": "Updated Todo",
+    "text": "This is an updated test todo item.",
+    "state": true
+  }
+}
+###
+DELETE http://localhost:5000/todos/deleteTodo
+Content-Type: application/json
+
+{
+  "username": "MaMu",
+  "id": 6
+}
+

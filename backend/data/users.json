@@ -1,0 +1,23 @@
+[
+  {
+    "userID": "u1",
+    "username": "MaMu",
+    "password": "LoginPW123!",
+    "firstname": "Max",
+    "lastname": "Mustermann"
+  },
+  {
+    "userID": "u2",
+    "username": "LiLu",
+    "password": "LoginPW123!",
+    "firstname": "Lisa",
+    "lastname": "Lustig"
+  },
+  {
+    "userID": "u3",
+    "username": "KuBi",
+    "password": "LoginPW123!",
+    "firstname": "Kushtrim",
+    "lastname": "Bilali"
+  }
+]
